@@ -27,6 +27,14 @@
         };
     };
 
+    left_encoder: encoder_left {
+        steps = <18>;
+    };
+
+    right_encoder: encoder_right {
+        steps = <18>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
