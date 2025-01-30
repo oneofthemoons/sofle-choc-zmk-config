@@ -28,11 +28,11 @@
     };
 
     left_encoder: encoder_left {
-        steps = <18>;
+        steps = <36>;
     };
 
     right_encoder: encoder_right {
-        steps = <18>;
+        steps = <36>;
     };
 
     keymap {
