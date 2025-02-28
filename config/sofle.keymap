@@ -66,11 +66,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F1  &kp F2        &kp F3  &kp F4  &kp F5  &kp F6                            &kp F7        &kp F8                &kp F9                 &kp F10          &kp F11           &kp F12
-&trans  &kp N1        &kp N2  &kp N3  &kp N4  &kp N5                            &kp SLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT      &kp AMPERSAND     &kp CARET
-&trans  &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0                            &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN    &kp GREATER_THAN  &kp HASH
-&trans  &trans        &trans  &trans  &trans  &trans  &trans    &trans          &kp MINUS     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp QUESTION      &kp AT_SIGN
-                      &trans  &trans  &trans  &trans  &trans    &kp UNDERSCORE  &kp PLUS      &kp EQUAL             &kp BACKSLASH          &kp DOLLAR
+&kp F12  &kp F1        &kp F2  &kp F3  &kp F4  &kp F5                            &kp F6        &kp F7                &kp F8                 &kp F9           &kp F10           &kp F11
+&trans   &kp N1        &kp N2  &kp N3  &kp N4  &kp N5                            &kp SLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT      &kp AMPERSAND     &kp CARET
+&trans   &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0                            &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN    &kp GREATER_THAN  &kp HASH
+&trans   &trans        &trans  &trans  &trans  &trans  &trans    &trans          &kp MINUS     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp QUESTION      &kp AT_SIGN
+                       &trans  &trans  &trans  &trans  &trans    &kp UNDERSCORE  &kp PLUS      &kp EQUAL             &kp BACKSLASH          &kp DOLLAR
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
