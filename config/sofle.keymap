@@ -52,7 +52,9 @@
                           &kp CAPS  &kp LALT  &mo 2   &mo 1   &kp ENTER    &kp BACKSPACE  &kp SPACE  &kp LS(LEFT_ALT)  &kp LEFT_WIN  &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         lower_layer {
