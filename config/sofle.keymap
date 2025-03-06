@@ -27,9 +27,9 @@
         };
     };
 
-    left_encoder: encoder_left { steps = <40>; };
-
-    right_encoder: encoder_right { steps = <40>; };
+    &sensors {
+        triggers-per-rotation = <18>;
+    };
 
     keymap {
         compatible = "zmk,keymap";
