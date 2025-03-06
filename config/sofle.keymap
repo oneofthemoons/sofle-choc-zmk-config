@@ -27,9 +27,9 @@
         };
     };
 
-    left_encoder: encoder_left { steps = <40>; };
+    left_encoder: encoder_left { steps = <30>; };
 
-    right_encoder: encoder_right { steps = <40>; };
+    right_encoder: encoder_right { steps = <30>; };
 
     keymap {
         compatible = "zmk,keymap";
