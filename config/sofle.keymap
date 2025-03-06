@@ -28,7 +28,15 @@
     };
 
     &sensors {
-        triggers-per-rotation = <18>;
+        triggers-per-rotation = <30>;
+    };
+
+    left_encoder: encoder_left {
+        steps = <18>;
+    };
+
+    right_encoder: encoder_right {
+        steps = <18>;
     };
 
     keymap {
