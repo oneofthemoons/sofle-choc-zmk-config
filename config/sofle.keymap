@@ -34,11 +34,11 @@
     };
 
     left_encoder: encoder_left {
-        steps = <36>;
+        steps = <32>;
     };
 
     right_encoder: encoder_right {
-        steps = <36>;
+        steps = <32>;
     };
 
     keymap {
