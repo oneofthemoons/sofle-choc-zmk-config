@@ -1,4 +1,4 @@
-/*
+                /*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -34,11 +34,11 @@
     };
 
     left_encoder: encoder_left {
-        steps = <18>;
+        steps = <34>;
     };
 
     right_encoder: encoder_right {
-        steps = <18>;
+        steps = <34>;
     };
 
     keymap {
