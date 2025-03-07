@@ -34,11 +34,11 @@
     };
 
     left_encoder: encoder_left {
-        steps = <339>;
+        steps = <338>;
     };
 
     right_encoder: encoder_right {
-        steps = <339>;
+        steps = <338>;
     };
 
     keymap {
@@ -62,7 +62,7 @@
                     &kp LEFT_BRACKET  &kp LALT  &kp LEFT_GUI  &mo LOWER  &kp SPACE     &kp ENTER  &mo RAISE  &kp BACKSPACE  &kp RIGHT_GUI  &kp RIGHT_BRACKET
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp PG_UP PG_DN>;
         };
 
         lower_layer {
