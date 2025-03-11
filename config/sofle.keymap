@@ -37,6 +37,14 @@
 
     right_encoder: encoder_right { steps = <36>; };
 
+    behaviors {
+        rot_msc: sensor_rotate_msc {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            #sensor-binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -58,7 +66,7 @@
                     &kp LEFT_BRACKET  &kp LALT  &kp LEFT_GUI  &mo LOWER  &kp SPACE     &kp ENTER  &mo RAISE  &kp BACKSPACE  &kp RIGHT_GUI  &kp RIGHT_BRACKET
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &rot_msc SCRL_UP SCRL_DOWN>;
         };
 
         lower_layer {
@@ -80,7 +88,7 @@
                                  &trans        &trans      &trans        &trans        &trans    &trans  &trans     &trans     &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &rot_msc SCRL_LEFT SCRL_RIGHT>;
         };
 
         raise_layer {
