@@ -33,12 +33,12 @@
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder &right_encoder>;
-        triggers-per-rotation = <18>;
+        triggers-per-rotation = <15>;
     };
 
-    left_encoder: encoder_left { steps = <36>; };
+    left_encoder: encoder_left { steps = <30>; };
 
-    right_encoder: encoder_right { steps = <36>; };
+    right_encoder: encoder_right { steps = <30>; };
 
     behaviors {
         rot_msc: sensor_rotate_msc {
